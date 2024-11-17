@@ -8,7 +8,7 @@ Weblang used 80% of HTML syntaxes.
 Weblang is an easy beginner coding language for beginners
 Here is an example code.
 
-'''css
+'''c++
 page Index {
     header {
         h1 "Hello World!"
