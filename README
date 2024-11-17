@@ -1,0 +1,39 @@
+## About WebLang
+
+WebLang is a coding language that can be used to generate html code or can create websites.
+Weblang used 80% of HTML syntaxes.
+
+## How to use WebLang
+
+Weblang is an easy beginner coding language for beginners
+Here is an example code.
+
+'''css
+page Index {
+    header {
+        h1 "Hello World!"
+        h1 "Goodbye World!"
+    }
+}
+
+'''
+
+## How many syntaxes are there in Weblang?
+
+There are 7 basic syntaxes in WebLang
+
+## What language do you use to create WebLang
+
+C++
+
+## How to run a Weblang file?
+
+First, if you want WebLang interpreter to be on your system, copy WebLang.exe path and go to "View advanced system settings"
+and then click Environment Variable. Scroll and click the path, then click new. Put in the name like "WebLang" and then put the path under the name. Click OK to close all the windows.
+Here how to run the .wbb file.
+Go to the terminal and type.
+'''
+Weblang yourfilename.wbb
+'''
+
+It may generate HTML file for the your web.

@@ -1,0 +1,18 @@
+<program> ::= <page>
+
+<page> ::= "page" <title> "{" <content> "}"
+
+<title> ::= <string>
+
+<content> ::= <header> <footer> <element>+
+
+<header> ::= "header" "{" <element>+ "}"
+
+<footer> ::= "footer" "{" <element>+ "}"
+
+<element> ::= <tag> <string>
+<custom-tag> ::= <string>
+<tag> ::= "h1" | "h2" | "p" | "a" | "body" | "title" | <custom-tag>
+<string> ::= '"' <text> '"'
+<text> ::= <letter>+
+<letter> ::= [a-zA-Z0-9]
